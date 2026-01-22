@@ -2,15 +2,80 @@
 
 ## Purpose
 
-To apply algebra and calculus concepts using numerical methods in Python.
+This project applies algebra and calculus concepts using numerical methods, reflecting how engineers solve problems in practice rather than symbolically.
 
-## Concepts used
+The toolkit is designed to strengthen mathematical intuition, numeral thinking and software structure discipline for engineering applications.
 
-- Linear and Quadratic Equations
-- Numerical Differentiation
-- Numerical Integration
-- Function Visualization
+---
 
-## Notes
+## Modules Overview
 
-This toolkit avoids symbolic math to reflect real engineering computation.
+### Algebra
+
+- Solves linear equations of the form $ax + b = 0$
+- Solves quadratic equations $ax^2 + bx + c = 0$
+- Handles real and complex roots
+
+### Calculus
+
+- Numerical differentiation using the central difference method.
+- Numeral integration using the trapezoidal rule.
+
+### Plotting
+
+- Visualizes mathematical functions over a given interval.
+
+---
+
+## Numerical Differentiation (Central Difference)
+
+The derivative of a function is approximated as:
+
+$$f'(x) = /frac{f(x + h) - f(x -h)}{2h}$$
+
+This method is more accurate than central differences because it reduces truncation error by considering the function behavior on both sides of the point.
+
+The step size h must be chosen carefully:
+- Too large → poor approximation
+- Too small → floating-point 
+
+---
+
+## Numerical Integration (Trapezoidal Rule)
+
+The definite integral is approximated by dividing the interval into small sub-intervals and summing trapezoidal areas:
+
+$$\int_{a}^{b} f(x) dx \approx h [ \frac{f(a) + f(c)}{2} + \sum_{i=1}^{n-1} f(a + ih) ]$$
+
+This method is widely used in engineering to compute:
+- Work
+- Energy
+- Signal Area
+- Accumulated quantities
+
+---
+
+## Why Numerical Methods Matter in Engineering
+
+Most real engineering systems:
+- Cannot be solved symbolically
+- Contain noise, nonlinearity, or discrete data
+
+Numerical methods will allow engineers to approximate solutions reliably and are fundamental in:
+- Control Systems
+- Simulations
+- Embedded Systems
+- Signal Processing
+
+## Limitations
+- Accuracy depends on step size and number of intervals
+- Discontinuous functions may give unreliable results
+- No symbolic computation is 
+
+---
+
+## Future Extensions
+- User-defined functions
+- Error estimation
+- Adaptive step sizing
+- Application to physical systems

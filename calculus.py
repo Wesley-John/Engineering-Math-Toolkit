@@ -9,6 +9,6 @@ def integrate(f, a, b, n):
     integral_sum = 0.5 * h * (f(a) + f(b))
 
     for i in range(1, int(n)):
-        integral_sum += h * f(a + i * h)
+        integral_sum += f(a + i * h)
 
-    return integral_sum
+    return h * integral_sum
