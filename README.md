@@ -31,7 +31,7 @@ The toolkit is designed to strengthen mathematical intuition, numeral thinking a
 
 The derivative of a function is approximated as:
 
-$$f'(x) = /frac{f(x + h) - f(x -h)}{2h}$$
+$$f'(x) = \frac{f(x + h) - f(x -h)}{2h}$$
 
 This method is more accurate than central differences because it reduces truncation error by considering the function behavior on both sides of the point.
 
@@ -45,7 +45,7 @@ The step size h must be chosen carefully:
 
 The definite integral is approximated by dividing the interval into small sub-intervals and summing trapezoidal areas:
 
-$$\int_{a}^{b} f(x) dx \approx h [ \frac{f(a) + f(c)}{2} + \sum_{i=1}^{n-1} f(a + ih) ]$$
+$$\int_{a}^{b} f(x) dx \approx h [\frac{f(a) + f(c)}{2} + \sum_{i=1}^{n-1} f(a + ih)]$$
 
 This method is widely used in engineering to compute:
 - Work
