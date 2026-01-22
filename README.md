@@ -1,10 +1,32 @@
 # ENGINEERING MATH TOOLKIT
 
+## Table of Contents
+
+- [Purpose](#purpose)
+- [Tech Stack](#tech-stack)
+- [Modules Overview](#modules-overview)
+  - [Algebra](#algebra)
+  - [Calculus](#calculus)
+  - [Plotting](#plotting)
+- [Numerical Differentiation (Central Difference)](#numerical-differentiation-central-difference)
+- [Numerical Integration (Trapezoidal Rule)](#numerical-integration-trapezoidal-rule)
+- [Why Numerical Methods Matter In Engineering](#why-numerical-methods-matter-in-engineering)
+- [Limitations](#limitations)
+- [Future Extensions](#future-extensions)
+
+---
+
 ## Purpose
 
 This project applies algebra and calculus concepts using numerical methods, reflecting how engineers solve problems in practice rather than symbolically.
 
 The toolkit is designed to strengthen mathematical intuition, numeral thinking and software structure discipline for engineering applications.
+
+---
+
+## Tech Stack
+
+- **Language** Python
 
 ---
 
@@ -67,6 +89,8 @@ Numerical methods will allow engineers to approximate solutions reliably and are
 - Embedded Systems
 - Signal Processing
 
+---
+
 ## Limitations
 - Accuracy depends on step size and number of intervals
 - Discontinuous functions may give unreliable results
@@ -79,3 +103,12 @@ Numerical methods will allow engineers to approximate solutions reliably and are
 - Error estimation
 - Adaptive step sizing
 - Application to physical systems
+
+---
+
+## Author
+
+👤 **John Wesley**  
+
+- [Connect with me on LinkedIn](https://www.linkedin.com/in/john-wesley-omondi)  
+- [Connect with me on GitHub](https://github.com/Wesley-John)
