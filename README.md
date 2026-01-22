@@ -14,21 +14,15 @@
 - [Limitations](#limitations)
 - [Future Extensions](#future-extensions)
 
----
-
 ## Purpose
 
 This project applies algebra and calculus concepts using numerical methods, reflecting how engineers solve problems in practice rather than symbolically.
 
 The toolkit is designed to strengthen mathematical intuition, numeral thinking and software structure discipline for engineering applications.
 
----
-
 ## Tech Stack
 
 - **Language** Python
-
----
 
 ## Modules Overview
 
@@ -47,8 +41,6 @@ The toolkit is designed to strengthen mathematical intuition, numeral thinking a
 
 - Visualizes mathematical functions over a given interval.
 
----
-
 ## Numerical Differentiation (Central Difference)
 
 The derivative of a function is approximated as:
@@ -59,9 +51,7 @@ This method is more accurate than central differences because it reduces truncat
 
 The step size h must be chosen carefully:
 - Too large → poor approximation
-- Too small → floating-point 
-
----
+- Too small → floating-point
 
 ## Numerical Integration (Trapezoidal Rule)
 
@@ -75,8 +65,6 @@ This method is widely used in engineering to compute:
 - Signal Area
 - Accumulated quantities
 
----
-
 ## Why Numerical Methods Matter in Engineering
 
 Most real engineering systems:
@@ -89,22 +77,16 @@ Numerical methods will allow engineers to approximate solutions reliably and are
 - Embedded Systems
 - Signal Processing
 
----
-
 ## Limitations
 - Accuracy depends on step size and number of intervals
 - Discontinuous functions may give unreliable results
-- No symbolic computation is 
-
----
+- No symbolic computation is used
 
 ## Future Extensions
 - User-defined functions
 - Error estimation
 - Adaptive step sizing
 - Application to physical systems
-
----
 
 ## Author
 
