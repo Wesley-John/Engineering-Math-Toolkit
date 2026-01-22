@@ -47,7 +47,7 @@ The derivative of a function is approximated as:
 
 $$f'(x) = \frac{f(x + h) - f(x -h)}{2h}$$
 
-This method is more accurate than central differences because it reduces truncation error by considering the function behavior on both sides of the point.
+This method is more accurate than forward differences because it reduces truncation error by considering the function behavior on both sides of the point.
 
 The step size h must be chosen carefully:
 - Too large → poor approximation
